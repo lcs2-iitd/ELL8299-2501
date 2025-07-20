@@ -24,14 +24,14 @@ instructors:
   #   webpage: https://www.daiict.ac.in/faculty-details/2321
     
 teaching_assistants:
-  - name: Anwoy Chatterjee
+  - name: Anwoy
     profile_pic: /_images/pp/anwoy.png
     webpage: https://www.linkedin.com/in/anwoy-chatterjee
 
-  - name: Aswini Kumar
+  - name: Aswini
     profile_pic: /_images/pp/aswini.png
-    webpage: https://sites.google.com/view/aswini-for-ai/home
+    webpage: https://aswininlp.github.io/
 
-  - name: Prottay Kumar
+  - name: Prottay
     profile_pic: /_images/pp/pro.png
     webpage: https://proadhikary.github.io
