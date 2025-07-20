@@ -3,7 +3,25 @@ layout: page
 title: Project
 permalink: /project/
 ---
-Find all the project-related updates here. <b>🔔 [Subscribe](https://forms.gle/A3ZpHd3sB4ErSMA79) to our newsletter for the latest updates on LLMs!</b>
+
+---
+# Project Team Formation
+
+Kindly fill out [the form](https://forms.office.com/r/wnFG7vw5ha) before 13/08/2024 11:59 PM.
+
+**Note:** Only one member per team should fill out the form.
 
 
+---
+# Projects Selection
 
+Please find the [list of projects](/_assignments/ELL409-Projects.pdf) attached herewith.
+
+Fill out [this form](https://forms.office.com/r/8cx1fvd2T1) to select the project. You need to fill in the top-5 preferences.
+
+---
+
+
+# Alloted Projects
+
+Please find the allotted projects [ here](/_assignments/Allotted_Projects.pdf).
