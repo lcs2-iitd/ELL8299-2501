@@ -1,0 +1,1 @@
+- lecture nots, should be done, tentetive lecture topics
