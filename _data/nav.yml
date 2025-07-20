@@ -3,17 +3,13 @@ items:
   name: Home
   icon_class: fa fa-home fa-lg
 
-- url: /schedule/
-  name: Schedule
-  icon_class: fas fa-calendar-alt
+# - url: /schedule/
+#   name: Schedule
+#   #icon_class: fas fa-calendar-alt
 
 - url: /lectures/
-  name: Materials
+  name: Lectures
   icon_class: fas fa-book-reader
-
-- url: /quizs/
-  name: Sample Questions and Quizzes
-  icon_class: fas fa-award
 
 - url: /assignments/
   name: Assignments
@@ -23,3 +19,6 @@ items:
   name: Project
   icon_class: fas fa-code
 
+- url: /materials/
+  name: Materials
+  icon_class: fas fa-book
