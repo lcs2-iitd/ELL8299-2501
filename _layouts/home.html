@@ -4,8 +4,9 @@ layout: default
 
 <div class="home">
 
-    <h1>{{ site.course_name }} <br/> <span style="font-size: 20px;color: #0006;"> {{ site.course_semester }} | <b><a href="https://forms.gle/A3ZpHd3sB4ErSMA79">Subscribe</a> to Newsletter!</b></span></h1>
-    
+    <h1>{{ site.course_name }} <br /> <span style="font-size: 20px;color: #0006;"> {{ site.course_semester }} | <b><a
+                    href="https://forms.gle/A3ZpHd3sB4ErSMA79">Subscribe</a> to Newsletter!</b></span></h1>
+
     {% include announcements.html %}
     <!-- <br />
     <center>
@@ -14,21 +15,28 @@ layout: default
 </br> -->
     <h2>Course Description</h2>
     <p>{{ site.course_description }}</p>
-    
+
     <!-- {{ content }} -->
 
-    {% if site.data.previous_offering and site.data.previous_offering.offerings and site.data.previous_offering.offerings.size > 0 %}
+    {% if site.data.previous_offering and site.data.previous_offering.offerings and
+    site.data.previous_offering.offerings.size > 0 %}
     <h2>Previous Offerings</h2>
-        <p>
-            The course was previously offered in 2024, and the course material is available online. You can find the course materials <a href="https://lcs2.in/llm2401">here</a>. The course was offered by Prof. Tanmoy Chakraborty. This course is designed to teach the students about recent advances in the field LLMs, building gradually from the basics. While it is impossible to teach about all recent research, more so in case of a field advancing as rapidly as LLMs, we will try our best to cover the important and well-established topics.
-        </p>
-        <p>
-            The NLP course offered by Prof. Tanmoy is ideally a precursor to this course. We will spend more time on the advanced concepts in this course and will go into a considerable depth, unlike NLP course where more time is spent on the basics. You can consider looking into the previous offerings of the basic NLP course:
-        </p>
+    <p>
+        The course was previously offered in 2024, and the course material is available online. You can find the course
+        materials <a href="https://lcs2.in/llm2401">here</a>. The course was offered by Prof. Tanmoy Chakraborty. This
+        course is designed to teach the students about recent advances in the field LLMs, building gradually from the
+        basics. While it is impossible to teach about all recent research, more so in case of a field advancing as
+        rapidly as LLMs, we will try our best to cover the important and well-established topics.
+    </p>
+    <p>
+        The NLP course offered by Prof. Tanmoy is ideally a precursor to this course. We will spend more time on the
+        advanced concepts in this course and will go into a considerable depth, unlike NLP course where more time is
+        spent on the basics. You can consider looking into the previous offerings of the basic NLP course:
+    </p>
     <ul class="previous-offerings">
-    {% for offer in site.data.previous_offering.offerings %}
-    <li><a href="{{ offer.url }}">{{offer.title}}</a></li>
-    {% endfor %}
+        {% for offer in site.data.previous_offering.offerings %}
+        <li><a href="{{ offer.url }}">{{offer.title}}</a></li>
+        {% endfor %}
     </ul>
     {% endif %}
 
@@ -72,26 +80,28 @@ layout: default
             </div>
         </div>
     </div>
-<br>
-<div style="width:100%; float: left">
-<h2>Logistics</h2>
-    <ul>
-        <li><b>Timings:</b> Slot H (Monday, Wednesday: 11 am - 12 pm; Thursday: 12 - 1 pm)</li>
-      <li><b>Office hours:</b> Monday: 5 - 5:30 pm</li>
-      <li><b>Classroom:</b> Bharti-301</li>
-        <li><b>News and announcements:</b> All the news and announcements will be posted on Piazza.</li>
-        <li><b>Piazza link:</b> Sign up for <a href="https://piazza.com/iitd.ac.in/fall2024/ell881ail821">this class</a> on Piazza. Students are encouraged to ask questions and participate in discussions!</li>
-        <li><b>Assignment submission:</b> All assignments should be submitted on Moodle.</li>
-        <li><b>YouTube link:</b> The lecture recordings are uploaded on  <a href="https://www.youtube.com/@lcs2575">this YouTube channel</a>.</li>
-    </ul>  
-<br/>
-<h2>Assessment Plan (Tentative)</h2>
-    <ul>
+    <br>
+    <div style="width:100%; float: left">
+        <h2>Logistics</h2>
+        <ul>
+            <li><b>Timings:</b> Slot H (Monday, Wednesday: 11 am - 12 pm; Thursday: 12 - 1 pm)</li>
+            <li><b>Office hours:</b> Monday: 5 - 5:30 pm</li>
+            <!-- <li><b>Classroom:</b> Bharti-301</li> -->
+            <li><b>News and announcements:</b> All the news and announcements will be posted on Piazza.</li>
+            <!-- <li><b>Piazza link:</b> Sign up for <a href="https://piazza.com/iitd.ac.in/fall2024/ell881ail821">this
+                    class</a> on Piazza. Students are encouraged to ask questions and participate in discussions!</li> -->
+            <li><b>Assignment submission:</b> All assignments should be submitted on Moodle.</li>
+            <li><b>YouTube link:</b> The lecture recordings are uploaded on <a
+                    href="https://www.youtube.com/@lablcs2">this YouTube channel</a>.</li>
+        </ul>
+        <br />
+        <!-- <h2>Assessment Plan (Tentative)</h2>
+        <ul>
             <li>Minor: 15%</li>
             <li>Major: 25%</li>
-          <li>2x Quizzes (in-class): 10%</li>
-        <li>1x Assignment (to be done individually): 20%</li>
-        <li>Project (group-wise): 30%</li>
-    </ul>  
-</div>
+            <li>2x Quizzes (in-class): 10%</li>
+            <li>1x Assignment (to be done individually): 20%</li>
+            <li>Project (group-wise): 30%</li>
+        </ul> -->
+    </div>
 </div>
