@@ -1,4 +1,4 @@
-# Large Language Models: Introduction and Recent Advances 
+# Advances in Large Language Models
 ### Course Code: ELL8299/AIL861
 ### Offering Semester: Semester-I, 2024-25
 ## Course Description
