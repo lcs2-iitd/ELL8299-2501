@@ -22,9 +22,16 @@ layout: default
     site.data.previous_offering.offerings.size > 0 %}
     <h2>Previous Offerings</h2>
     <p>
-        The course was previously offered in 2024 by Prof. Tanmoy Chakraborty. This course is designed to teach the students about recent advances in the field LLMs, building gradually from the
+        The course was previously offered in 2024, and the course material is available online. You can find the course
+        materials <a href="https://lcs2.in/llm2401">here</a>. The course was offered by Prof. Tanmoy Chakraborty. This
+        course is designed to teach the students about recent advances in the field LLMs, building gradually from the
         basics. While it is impossible to teach about all recent research, more so in case of a field advancing as
         rapidly as LLMs, we will try our best to cover the important and well-established topics.
+    </p>
+    <p>
+        The NLP course offered by Prof. Tanmoy is ideally a precursor to this course. We will spend more time on the
+        advanced concepts in this course and will go into a considerable depth, unlike NLP course where more time is
+        spent on the basics. You can consider looking into the previous offerings of the basic NLP course:
     </p>
     <ul class="previous-offerings">
         {% for offer in site.data.previous_offering.offerings %}
@@ -59,7 +66,7 @@ layout: default
 
         <div style="width:30%; float: left">
             <div class="profile-pic-gallary ">
-                <h2>Teaching Assistant</h2>
+                <h2>Teaching Assistants</h2>
                 {% for ta in site.data.people.teaching_assistants %}
                 <div class="image--cover-container">
                     <img src="{{ta.profile_pic | prepend: site.baseurl }}" class="image--cover">
@@ -82,9 +89,9 @@ layout: default
             <li><b>Classroom:</b> Bharti-301</li>
             <li><b>News and announcements:</b> All the news and announcements will be posted on Piazza.</li>
             <li><b>Piazza link:</b> Sign up for <a href="https://piazza.com/iit_delhi/fall2025/ail861ell8299">this
-                    class</a> on Piazza. Check you mail for the Access Code. Students are encouraged to ask questions
-                and participate in discussions!</li>
+                    class</a> on Piazza. Check you mail for the Access Code. Students are encouraged to ask questions and participate in discussions!</li>
             <li><b>Assignment submission:</b> All assignments should be submitted on Moodle.</li>
+            <li><b>Audit policy:</b> To get an Audit Pass in the course, you must achieve a score equivalent to at least a <b>B- grade or higher</b>.</li>
             <!-- <li><b>YouTube link:</b> The lecture recordings are uploaded on <a
                     href="https://www.youtube.com/@lablcs2">this YouTube channel</a>.</li> -->
         </ul>
@@ -94,7 +101,7 @@ layout: default
             <li>Minor: 15%</li>
             <li>Major: 25%</li>
             <li>2x Quizzes (in-class): 20%</li>
-            <li>2x Assignment (to be done individually): 25%</li>
+            <li>1x Assignment (to be done individually): 15%</li>
             <li>Project (group-wise): 25%</li>
         </ul>
     </div>
