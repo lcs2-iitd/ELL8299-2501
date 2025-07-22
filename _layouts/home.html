@@ -21,12 +21,12 @@ layout: default
     {% if site.data.previous_offering and site.data.previous_offering.offerings and
     site.data.previous_offering.offerings.size > 0 %}
     <h2>Previous Offerings</h2>
-    <p>
+    <!--p>
         The course was previously offered in 2024 by Prof. Tanmoy Chakraborty. This
         course is designed to teach the students about recent advances in the field LLMs, building gradually from the
         basics. While it is impossible to teach about all recent research, more so in case of a field advancing as
         rapidly as LLMs, we will try our best to cover the important and well-established topics.
-    </p>
+</p-->
     <ul class="previous-offerings">
         {% for offer in site.data.previous_offering.offerings %}
         <li><a href="{{ offer.url }}">{{offer.title}}</a></li>
@@ -83,7 +83,7 @@ layout: default
             <li><b>Classroom:</b> Bharti-301</li>
             <li><b>News and announcements:</b> All the news and announcements will be posted on Piazza.</li>
             <li><b>Piazza link:</b> Sign up for <a href="https://piazza.com/iit_delhi/fall2025/ail861ell8299">this
-                    class</a> on Piazza. Check you mail for the Access Code. Students are encouraged to ask questions and participate in discussions!</li>
+                    class</a> on Piazza. Check your mail for the access code. Students are encouraged to ask questions and participate in discussions!</li>
             <li><b>Assignment submission:</b> All assignments should be submitted on Moodle.</li>
             <li><b>Audit policy:</b> To get an Audit Pass in the course, you must achieve a score equivalent to at least a <b>B- grade or higher</b>.</li>
             <!-- <li><b>YouTube link:</b> The lecture recordings are uploaded on <a
