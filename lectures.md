@@ -16,9 +16,10 @@ You can download the lectures here. <b>🔔 [Subscribe](https://forms.gle/A3ZpHd
 8. Retrieval-Augmented Language Models
 9. LLM Agents (Function Calling, Design Decisions, Protocols, etc.)
 10. Large Reasoning Models (LRMs)
-11. Alternative LLM Architectures (State Space Models, Diffusion-based Models, etc.)
-12. Physics of Language Models
-13. Interpreting the Inner Workings of LLMs
-14. Conclusion
+11. Multimodal Models
+12. Alternative LLM Architectures (State Space Models, Diffusion-based Models, etc.)
+13. Physics of Language Models
+14. Interpreting the Inner Workings of LLMs
+15. Conclusion
 
  
