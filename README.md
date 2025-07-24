@@ -1,5 +1,5 @@
 # Advances in Large Language Models
-### Course Code: ELL8299/AIL861
+### Course Code: ELL8299/ELL881/AIL861
 ### Offering Semester: Semester-I, 2024-25
 ## Course Description
 The field of Natural Language Processing (NLP) has witnessed rapid progress in recent times, driven mainly by the design and development of Large Language Models (LLMs). With the increase in scale, LLMs exhibit various emergent properties, though there are conflicting opinions among researchers about these phenomena. Nonetheless, LLMs are proving to be useful and are becoming ubiquitous across numerous applications.
