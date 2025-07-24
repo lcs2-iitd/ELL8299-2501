@@ -16,21 +16,21 @@ layout: page
     </div>
     {% endif %}
     <div class="content">
-        <span style="font-weight: bold;">{{ lecture.title }}</span><br>
-        <strong>Lecture date:</strong> {{ lecture.format_date }}
-         <br/>
-        <strong>tl;dr:</strong> {{ lecture.tldr }}
-        <br/>
-        <strong>
-        {% include lecture_links.html lecture=lecture %}
-        </strong>
+      <span style="font-weight: bold;">{{ lecture.title }}</span><br>
+      <strong>Lecture date:</strong> {{ lecture.format_date }}
+       <br/>
+      <strong>tl;dr:</strong> {{ lecture.tldr }}
+      <br/>
+      <strong>
+      {% include lecture_links.html lecture=lecture target="_blank" %}
+      </strong>
 
-        {% if lecture.content != '' %}
-        <br/>
-        <div class="markdown-content" style="margin-top: 3px;">
-        <a href="{{ lecture.content }}" target="_blank">{{ lecture.content }}</a>
-        </div>
-        {% endif %}
+      {% if lecture.content != '' %}
+      <br/>
+      <div class="markdown-content" style="margin-top: 3px;">
+      {{ lecture.content | replace: '<a ', '<a target="_blank" rel="noopener noreferrer" ' }}
+      </div>
+      {% endif %}
     </div>
 </div>
 </li>
