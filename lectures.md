@@ -6,7 +6,7 @@ permalink: /lectures/
 You can download the lectures here. <b>🔔 [Subscribe](https://forms.gle/A3ZpHd3sB4ErSMA79) to our newsletter for the latest updates on LLMs!</b>
 
 **Tentative Topics:**
-<p><s>1. Course Introduction</s></p>
+1. Course Introduction
 2. Introduction to Transformers
 3. Pre-training and Post-training Strategies
 4. Alignment of Language Models (PPO, DPO, GRPO, MCTS, PRMs, etc.)
