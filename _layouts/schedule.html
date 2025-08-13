@@ -9,26 +9,9 @@ layout: default
 {{ content }}
 
 <div class="home" style="font-size: 0.8em;">
-    <ul class="responsive-table" style="margin-left: 0;">
-        <li class="table-header">
-            <div class="col col-1">Event</div>
-            <div class="col col-1-2">Date</div>
-            <div class="col col-2">Description</div>
-            <div class="col col-4">Course Material</div>
-        </li>
-        
-        {% assign all_assignment_dues = site.assignments | map: "due_event" %}
-
-        {% assign all_events = site.events | concat: site.lectures %}
-        {% assign all_events = all_events | concat: site.assignments %}
-        {% assign all_events = all_events | concat: all_assignment_dues %}
-        {% assign all_events_sorted = all_events | sort: 'date' %}
-
-        {% for event in all_events_sorted %}
-        <li class="table-row table-row-{{ event.type}}">
-            {% include schedule_row_{{ event.type }}.html event=event %}
-        </li>
-        {% endfor %}
-
-    </ul>
+    <i>Note: To make a copy in your personal calender, please click on the bottom-right</i> <b>+Google Calender</b>
+    <i>icon</i>.
+    <iframe
+        src="https://calendar.google.com/calendar/embed?height=600&wkst=2&ctz=Asia%2FKolkata&showTitle=0&showDate=0&showPrint=0&showCalendars=0&showTz=0&mode=AGENDA&src=ZjQxMjI2NjIwMmYxMmNiZmRlZDc2MWI0NTMwZjhjMDQzZjA4NDM2NjQyOWQwNTJhNmVmN2E5NjQ5Yzg4NzkwMEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%23ef6c00"
+        style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>
 </div>
