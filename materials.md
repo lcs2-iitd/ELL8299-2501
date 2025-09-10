@@ -10,7 +10,7 @@ You can download the external materials and exam questions here. <b>🔔 <a href
 
 ## Exam Questions
 
-* [Quiz-1](/_assignments/Quiz1.pdf)
+* [Quiz-1](/static_files/exams/Quiz1.pdf)
   
 ## Textbook
 * <a href="https://www.amazon.in/dp/936386474X/" target="_blank">Introduction to Large Language Models</a>, Tanmoy Chakraborty
