@@ -5,7 +5,7 @@ permalink: /lectures/
 ---
 You can download the lectures here. <b>🔔 [Subscribe](https://forms.gle/A3ZpHd3sB4ErSMA79) to our newsletter for the latest updates on LLMs!</b>
 
-**Tentative Topics:**
+<!-- **Tentative Topics:**
 1. Course Introduction
 2. Introduction to Transformers
 3. Pre-training and Post-training Strategies
@@ -20,6 +20,6 @@ You can download the lectures here. <b>🔔 [Subscribe](https://forms.gle/A3ZpHd
 12. Alternative LLM Architectures (State Space Models, Diffusion-based Models, etc.)
 13. Physics of Language Models
 14. Interpreting the Inner Workings of LLMs
-15. Conclusion
+15. Conclusion -->
 
  
