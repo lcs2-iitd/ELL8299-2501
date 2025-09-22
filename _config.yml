@@ -1,6 +1,6 @@
 # Site settings
 course_code: ELL8299/AIL861
-course_name: "Advances in Large Language Models"
+course_name: "Advanced Large Language Models"
 course_description: "The field of Natural Language Processing (NLP) has witnessed rapid progress in recent times, driven mainly by the design and development of Large Language Models (LLMs). With the increase in scale, LLMs exhibit various emergent properties, though there are conflicting opinions among researchers about these phenomena. Nonetheless, LLMs are proving to be useful and are becoming ubiquitous across numerous applications.<br/><br/>This advanced course aims to introduce the latest advancements in generative AI for text and is open to both undergraduate and graduate students. The course is structured into five modules: Fundamentals, Efficiency, Augmentation & Reasoning, Alternate Paradigms, and Miscellaneous. Together, these modules will provide a comprehensive view of the different facets of LLMs.<br/><br/>Students should have a background in Machine Learning and be proficient in Python programming. At least some basic knowledge of Deep Learning and NLP is preferred. Through assignments and a course project, students will acquire the skills necessary to design, implement, and understand LLMs using the PyTorch framework."
 course_semester: "Semester I, 2025-26"
 
